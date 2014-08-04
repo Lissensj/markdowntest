@@ -15,7 +15,7 @@ The security framework is organized around the following hierarchy of entities :
 
 The diagram below shows this hierarchy:
 
-!hierarchy.jpg|width=500!
+![hierarchy](hierarchy.jpg)
 
 Qeo applications run on devices, assigned to a User. Currently, Qeo security is user-centric. Group your devices accordingly when using access control in Qeo. 
 
@@ -39,7 +39,7 @@ In order for two applications to successfully exchange data over Qeo, each of th
 
 Security is managed through a central server: the _Security Management Server_. This SMS can be used to create and configure a Realm and its corresponding Qeo security policy. Once the security policy is available to the different devices in the Realm, the devices can interact directly according this security policy without any further interaction with the Security Management Server. When the Qeo security policy gets updated (e.g. because a user is added or a user has been given different access rights to the Qeo topics) all devices in the realm need to apply this latest policy file to act in sync and according this latest Qeo security policy.
 
-!HighLevelDiagram.jpg!
+![High Level Diagram](HighLevelDiagram.jpg)
 
 Users/Device/App combinations in Realm 1 are able to talk Qeo to each other, whereas they are unaware of anyone in other Realms and vice versa. Each Realm is separate from another.
 
