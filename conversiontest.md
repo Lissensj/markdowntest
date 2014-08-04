@@ -2,7 +2,7 @@
 
 This is a page about a thought experiment with as goal the creation of a simplified (Qeo-alike?) API on top of the AllJoyn API.
 
-h4. The Prototype
+#####The Prototype
 
 More information on the prototype can be found at following locations:
 
@@ -17,7 +17,7 @@ Note:
 
 Oh yeah... only builds in Eclipse for now :).
 
-h5. Concept mapping
+######Concept mapping
 
 ||Qeo prototype||AllJoyn||
 |Service (ajnqeo_service_t)|BusAttachment|
@@ -28,16 +28,16 @@ h5. Concept mapping
 
 ProxyBusObject (client side)|
 
-h5. Disclaimer
+######Disclaimer
 
 * Session setup between two peers is available.  Session setup between multiple peers is possible using similar code as from the Java prototype (but not implemented).
 * No caching has been implemented in the reader or writer.  A mechanism as available in the Java prototype is possible.
 * Error handling is mostly done using asserts.  This will cause program abortion if anything goes wrong.  A lot of sanity checks are not in place.
 * Currently only string and integer types are supported.  Nested structures are only available as properties (as a proof-of-concept).
 
-h4. AllJoyn C API Remarks
+#####AllJoyn C API Remarks
 
-h5. Header file/API issues
+######Header file/API issues
 
 * *Session.h* and *TransportMask.h* contain global variables.  Including these files in different sources files triggers linking errors (double symbols).  Should be changed to *#define*s or *extern*s.
 
@@ -45,11 +45,11 @@ h5. Header file/API issues
 
 * The C++ method *MsgArg::SetOwnershipFlags()* is not available in the C API.  As a result the destruction of complex dynamic data (msgarg) structures requires a lot of recursion.
 
-h5. Nested structures
+######Nested structures
 
 In DBus property signatures it is possible to have very complex types (e.g. nested structures).  This is defined as "(...)" where the ellipsis is replaced by the signatures of the individual structure fields.  The problem with this approach is that no names for those fields are available anywhere; i.e. they are anonymous.  It is not possible to map this easily onto a real C structure with named fields.  A more high level interface (or type) description as used in the prototype alleviates this problem (see *ajnqeo_intf_desc_t*).
 
-h5. Signal and method handlers
+######Signal and method handlers
 
 When registering a signal handler using *alljoyn_busattachment_registersignalhandler* it is not possible to specify some kind of context (or cookie) that is alter on passed to the actual handler.  This prevents a clean implementation of a more generic mechanism for signal handling.  The current prototype keeps track of the context information in a global variable (only a single is supported).  This makes for more complex management code when multiple signal handlers are needed.
 
