@@ -71,7 +71,9 @@ Image links are preceded by "!" . Alt text is put between straight brackets "[]"
 
 ![Darfield](http://project-nerd.com/wp-content/uploads/2012/12/Garfield-Dalek.jpg)
 
-**Tip:** for this to work properly, your images must be stored in Github as well. Provide the full and absolute path to your image.
+**Tip:** for this to work properly, your images must be stored in Github as well. Provide the full and absolute path to your image. Relative paths will work, but beware to keep them short. Longer relative paths break easily. As an example, this dummy image (or is it an image of a dummy) is located next to this document:
+
+![Dummy Image](dummy.jpg)
 
 # QUOTES AND CODE 
 
