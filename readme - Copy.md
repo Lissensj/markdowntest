@@ -3,18 +3,6 @@
 
 This document contains examples of all possible markdown styling supported by GitHub.
 
-# TABLE OF CONTENTS
-
-[Headers](#Headers)
-[Emphasis](#Emphasis)
-[Lists](#Lists)
-[Inserting Images](#Images)
-[Quotes and Code](#Code)
-[Tables](#Tables)
-[URL Links](#URLlinks)
-[Internal Links](#Intlinks)
-
-<a name="Headers"> </a>
 # HEADERS
 
 Headers are preceded by one or more #:
@@ -24,7 +12,6 @@ Headers are preceded by one or more #:
 ### Header 3
 #### Header 4
 
-<a name="Emphasis"> </a>
 # EMPHASIS
 
 You can use * or _ to mark text for emphasis. One is italic, two is bold:
@@ -41,7 +28,6 @@ This is __also Bold__
 
 ~~This is strikethrough~~
 
-<a name="Lists"> </a>
 # LISTS
 
 Contrary to other markdown dialects, stars are used iso hyphens.
@@ -79,8 +65,6 @@ Contrary to other markdown dialects, stars are used iso hyphens.
    * Bullet One
    * Bullet Two
 
-
-<a name="Images"> </a>
 # INSERTING IMAGES
 
 Image links are preceded by "!" . Alt text is put between straight brackets "[]". The URL of the image is put between round brackets "()".
@@ -91,8 +75,6 @@ Image links are preceded by "!" . Alt text is put between straight brackets "[]"
 
 ![Dummy Image](dummy.jpg)
 
-
-<a name="Code"> </a>
 # QUOTES AND CODE 
 
 ## Block Quotes
@@ -119,7 +101,6 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-<a name="Tables"> </a>
 # TABLES
 
 Not all markdown dialects support tables, but Github fortunately does. You can create tables by assembling a list of words and dividing them with hyphens "-" for the first row), and then separating each column with a pipe "|":
@@ -162,7 +143,6 @@ Finally, by including colons : within the header row, you can define text to be 
 
 A colon on the left-most side indicates a left-aligned column; a colon on the right-most side indicates a right-aligned column; a colon on both sides indicates a center-aligned column.
 
-<a name="URLlinks"> </a>
 # URL LINKS
 
 Complete syntax
@@ -172,9 +152,3 @@ Complete syntax
 Github also auto-formats a link if it recognizes a URL as such:
 
 http://www.github.com
-
-
-<a name="Intlinks"> </a>
-# INTERNAL LINKS
-
-In standard Markdown, place an anchor <a name="abcd"> </a> where you want to link to and refer to it on the same page by [link text](#abcd).
