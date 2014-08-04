@@ -5,7 +5,6 @@ This document contains examples of all possible markdown styling supported by Gi
 
 # HEADERS
 
-Headers are preceded by one or more #:
 
 # Header1
 ## Header2
@@ -13,8 +12,6 @@ Headers are preceded by one or more #:
 #### Header 4
 
 # EMPHASIS
-
-You can use * or _ to mark text for emphasis. One is italic, two is bold:
 
 This is *Italic*
 
@@ -29,8 +26,6 @@ This is __also Bold__
 ~~This is strikethrough~~
 
 # LISTS
-
-Contrary to other markdown dialects, stars are used iso hyphens.
 
 ##Simple unordered list:
 
@@ -67,11 +62,10 @@ Contrary to other markdown dialects, stars are used iso hyphens.
 
 # INSERTING IMAGES
 
-Image links are preceded by "!" . Alt text is put between straight brackets "[]". The URL of the image is put between round brackets "()".
 
 ![Darfield](http://project-nerd.com/wp-content/uploads/2012/12/Garfield-Dalek.jpg)
 
-**Tip:** for this to work properly, your images must be stored in Github as well. Provide the full and absolute path to your image.
+**Tip:** for this to work properly, provide the full path to your image in Github.
 
 # QUOTES AND CODE 
 
@@ -101,43 +95,43 @@ puts markdown.to_html
 
 # TABLES
 
-Not all markdown dialects support tables, but Github fortunately does. You can create tables by assembling a list of words and dividing them with hyphens "-" for the first row), and then separating each column with a pipe "|":
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
 
 First Header  | Second Header
 ------------- | -------------
-Cell one      | Cell two
-Cell three    | Cell four
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 For aesthetic purposes, you can also add extra pipes on the ends:
 
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Cell one      | Cell two      |
-| Cell three    | Cell four     |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Note that the dashes at the top don't need to match the length of the header text exactly:
 
 | Name | Description          |
 | ------------- | ----------- |
-| Red Button    | You will not resist pushing this.|
-| Cord          | You know you want to pull it.    |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
 
 You can also include inline Markdown such as links, bold, italics, or strikethrough:
 
 | Name | Description          |
 | ------------- | ----------- |
-| Red Button    | ~~You will not~~ resist pushing this.|
-| Cord          | _You know_ you want to pull it.    |
+| Help      | ~~Display the~~ help window.|
+| Close     | _Closes_ a window     |
 
 Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
-| left          | centered        | right |
-| aligned       | aligned         | aligned |
-
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 A colon on the left-most side indicates a left-aligned column; a colon on the right-most side indicates a right-aligned column; a colon on both sides indicates a center-aligned column.
 
