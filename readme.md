@@ -6,13 +6,21 @@ This document contains examples of all possible markdown styling supported by Gi
 # TABLE OF CONTENTS
 
 [Headers](#Headers)
+
 [Emphasis](#Emphasis)
+
 [Lists](#Lists)
+
 [Inserting Images](#Images)
+
 [Quotes and Code](#Code)
+
 [Tables](#Tables)
+
 [URL Links](#URLlinks)
+
 [Internal Links](#Intlinks)
+
 
 <a name="Headers"> </a>
 # HEADERS
