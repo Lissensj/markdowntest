@@ -233,6 +233,7 @@ function test() {
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
+```
 
 For an overview of all available for highlighting, [go here](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/)
 
