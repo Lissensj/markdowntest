@@ -35,7 +35,7 @@ This document is intended for software engineers and assumes familiarity with th
 
 In order to understand all the examples in this template, you need to look at the non-rendered text in a text editor. If you want to preview what your document will (more or less) look like, there are a number of editors available on the Internet that provide this.
 
-As a general piece pf advice; since this document will become a single page on the Allseen documentation system in Drupal, keep it concise. Split your document into several sub-documents if necessary. You can use a top document to link the separate documents together.
+As a general piece of advice; since this document will become a single page on the Allseen documentation system in Drupal, keep it concise. Split your document into several sub-documents if necessary. You can use a top document to link the separate documents together.
 
 ### References
 
