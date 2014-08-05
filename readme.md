@@ -19,7 +19,13 @@ This document contains examples of all possible markdown styling supported by Gi
 
 [URL Links](#URLlinks)
 
-[Internal Links](#Intlinks)
+[Internal Links](#Intlinks) 
+
+[External Links](#Extlinks) 
+
+[Reference Links](#Reflinks)
+
+[Backslash Escape](#Escape)
 
 
 <a name="Headers"> </a>
@@ -87,6 +93,14 @@ Contrary to other markdown dialects, stars are used iso hyphens.
    * Bullet One
    * Bullet Two
 
+## Multiple Paragraphs in Lists
+List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:
+
+1.  This is a list item with two paragraphs. Bacon ipsum dolor sit amet tail short loin shank 	ham capicola. Ground round cow corned beef prosciutto. 
+
+    Tail venison kielbasa ground round 	boudin short ribs biltong hamburger spare ribs jerky. 
+
+2.  Brisket tenderloin flank shankle andouille hamburger.
 
 <a name="Images"> </a>
 # INSERTING IMAGES
@@ -108,6 +122,17 @@ Image links are preceded by "!" . Alt text is put between straight brackets "[]"
 > Bacon ipsum dolor sit amet tail short loin shank ham capicola. Ground round cow corned beef prosciutto. Tail venison kielbasa ground round boudin short ribs biltong hamburger spare ribs jerky. Brisket tenderloin flank shankle andouille hamburger.
 
 > Corned beef tri-tip capicola, pork chuck bresaola brisket frankfurter boudin pork chop meatball. Sirloin filet mignon short ribs meatloaf chicken turkey ground round jerky ham tenderloin. Salami hamburger pork chop pork kielbasa ground round corned beef ribeye, fatback shank andouille meatball. Meatloaf frankfurter brisket andouille turducken pork chop swine doner beef ribs spare ribs pork belly. Capicola shoulder brisket, landjaeger swine doner chuck boudin kielbasa turducken bresaola rump. Sirloin porchetta flank fatback, filet mignon tail pig bacon. Pork drumstick jerky, salami ground round shankle andouille ball tip tri-tip spare ribs flank bacon short loin meatball fatback.
+
+Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
 
 ## Code 
 
@@ -186,3 +211,38 @@ http://www.github.com
 # INTERNAL LINKS
 
 In standard Markdown, place an anchor <a name="abcd"> </a> where you want to link to and refer to it on the same page by [link text](#abcd).
+
+<a name="Extlinks"> </a>
+# EXTERNAL LINKS
+
+This is a link to [an external document](conversiontest2.md)
+
+This one links to a [document in a subfolder](/testfolder/conversiontest2.md)
+
+<a name="Reflinks"> </a>
+#REFERENCE STYLE LINKS
+
+An alternative way of creating links is using references. This is useful if you want to use multiple links to the same anchor and if you want to manage them more easily afterwards. Instead of a link, you create a link to an ID and a reference defining that ID. Part of the table of contents above, recreated with reference links looks like this:
+ 
+
+[Headers][1]
+
+[Emphasis][2]
+
+[Lists][3]
+
+[1]:#Headers
+[2]:#Emphasis 
+[3]:#Lists
+
+
+
+
+<a name="Escape"> </a>
+# BACKSLASH ESCAPE
+
+Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks, you can use backslashes before the asterisks, like this:
+
+\* These are literal asterisks. This line is not emphasized. \*
+
+You can escape other formatting characters in the same way.
