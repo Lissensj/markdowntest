@@ -12,13 +12,20 @@ Month Day, Year
 
 ## Table of Contents
 
-* [Introduction](#Intro)
-* [Chapter 1 - Overview](#Chap1)
-* [Chapter 2 - Some Syntax Examples](#Chap2)
-* [Chapter 3 - Your Chapter Title Here](#Chap3)
-* [Appendix A - Appendix Title](#AppA)
+* [Introduction][Intro]
+* [Chapter 1 Overview][Chap1]
+* [Chapter 2 Some Syntax Examples][Chap2]
+* [Chapter 3 Your Chapter Title Here][Chap3]
+* [Appendix A Appendix Title][AppA]
 
-Note that this table of contents is on a chapter level, but you can add additional levels by adding additional anchors.
+[Intro]:#Intro
+[Chap1]:#Chap1
+[Chap2]:#Chap2
+[Chap3]:#Chap3
+[AppA]:#AppA
+
+
+Note that this table of contents is on a chapter level, but you can add additional levels by adding additional anchors. This table uses reference links (see below).
 
 <a name="Intro"> </a>
 ##Introduction
@@ -53,7 +60,7 @@ Below is a list of used acronyms and terms:
 
 
 <a name="Chap1"> </a>
-##Chapter 1 - Overview
+##Chapter 1 Overview
 
 
 ### What is it all about?
@@ -73,7 +80,7 @@ Try writing your document in a structured way. Use labels and block of text and 
 
 [Back to Top][Top]
 <a name="Chap2"> </a>
-##Chapter 2 - Some Syntax Examples
+##Chapter 2 Some Syntax Examples
 
 ### In this Chapter
 
@@ -128,7 +135,6 @@ This is __also Bold__
 
 *You **can** combine the two*
 
-~~This is strikethrough~~
 
 
 **Note**
@@ -184,7 +190,7 @@ Contrary to other markdown dialects, stars are used iso hyphens.
 #### Multiple Paragraphs in Lists
 List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab:
 
-1.  This is a list item with two paragraphs. Bacon ipsum dolor sit amet tail short loin shank 	ham capicola. Ground round cow corned beef prosciutto. 
+1.  This is a list item with two paragraphs. Bacon ipsum dolor sit amet tail short loin shank     ham capicola. Ground round cow corned beef prosciutto. 
 
     Tail venison kielbasa ground round 	boudin short ribs biltong hamburger spare ribs jerky. 
 
@@ -354,7 +360,7 @@ You can link to an external document by using its name. If document you are refe
 
 #### Reference Links
 
-An alternative way of creating links is using references. This is useful if you want to use multiple links to the same anchor and if you want to manage them more easily afterwards. 
+The preferred way of creating links is using references. This is useful if you want to use multiple links to the same anchor and if you want to manage them more easily afterwards. 
 
 Instead of a creating the link in one go, you first create a link to an ID:
 
@@ -371,7 +377,7 @@ For example, this one goes to Google:
 
 If you have multiple references to the same link, this method allows for easy updating of the link, since you do not need to update the (multiple) links but simply update the (single) reference line.
 
-This method was used to create the [Back to Top][Top] links in this document.
+**Note:** When defining the target of a link, you can also use a named anchor instead of a path or URL. This method was used to create the [Back to Top][Top] links in this document as well as the Table of Contents.
 
 [Back to Formatting Overview][Chap2over]
 
@@ -394,16 +400,16 @@ If you put images inline in a procedure, do not use figure titles.
 
 
 <a name="Chap3"> </a>
-##Chapter 3 - Your Chapter Title Here
+##Chapter 3 Your Chapter Title Here
 
-### Start Writing
+###Start Writing
 
 We know you can do it!
 
 [Back to Top][Top]
 
 <a name="AppA"> </a>
-## Appendix A - Appendix Title
+##Appendix A Appendix Title
 
 
 Use an appendix if you need one.
