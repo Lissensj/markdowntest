@@ -50,8 +50,8 @@ Below is a list of used acronyms and terms:
 
 
 [AllSeenlogo]: /AllSeenlogo2014.jpg
-[Section1]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Page01.md
-[Section2]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Page02.md
-[Section3]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Page03.md
-[Section4]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Page04.md
+[Section1]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter1.md
+[Section2]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter2.md
+[Section3]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter3.md
+[Section4]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter4.md
 [AppA]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/AppendixA.md
