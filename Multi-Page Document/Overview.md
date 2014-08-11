@@ -11,10 +11,10 @@ Month Day, Year
 
 This document covers the following sections:
 
-* [First Section i.e. Page 01][Section1]
-* [Second Section i.e. Page 02][Section2]
-* [Third Section i.e. Page 03][Section3]
-* [Fourth Section i.e. Page 04][Section4]
+* [First Chapter][Chap1]
+* [Second Chapter][Chap2]
+* [Third Chapter][Chap3]
+* [Fourth Chapter][Chap4]
 * [Appendix A][AppA]
 
 
@@ -50,8 +50,8 @@ Below is a list of used acronyms and terms:
 
 
 [AllSeenlogo]: /AllSeenlogo2014.jpg
-[Section1]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter1.md
-[Section2]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter2.md
-[Section3]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter3.md
-[Section4]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter4.md
+[Chap1]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter1.md
+[Chap2]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter2.md
+[Chap3]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter3.md
+[Chap4]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/Chapter4.md
 [AppA]: https://github.com/Lissensj/markdowntest/blob/master/Multi-Page%20Document/AppendixA.md
