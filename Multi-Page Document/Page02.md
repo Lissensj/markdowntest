@@ -9,25 +9,25 @@ This chapter serves both as example syntax and as tutorial.
 ### Overview
 
 <a name="Chap2over"> </a>
-[Chap2over]:#Chap2over
 
-* [2.1 Paragraph Styles](#paragraph-styles)
 
-* [2.2 Text Formatting](#text-formatting)
+* [2.1 Paragraph Styles][2.1]
 
-* [2.3 Using Lists](#using-lists)
+* [2.2 Text Formatting][2.2]
 
-* [2.4 Inserting Images](#inserting-images)
+* [2.3 Using Lists][2.3]
 
-* [2.5 Using Code Blocks](#using-code-blocks)
+* [2.4 Inserting Images][2.4]
 
-* [2.6 Using Block Quotes](#using-block-quotes)
+* [2.5 Using Code Blocks][2.5]
 
-* [2.7 Tables](#tables)
+* [2.6 Using Block Quotes][2.6]
 
-* [2.8 Using Links](using-links)
+* [2.7 Tables][2.7]
 
-* [2.9 Formatting Procedures](#formatting-procedures)
+* [2.8 Using Links][2.8]
+
+* [2.9 Formatting Procedures][2.9]
 
 
 ### 2.1 Paragraph Styles
@@ -147,9 +147,7 @@ Always put the figure title below the figure and use **bold**.
 
 ### 2.5 Using Code Blocks
 
-A code block is a specifically styled paragraph format, use for representing (you've guessed it) a block of code. You can use syntax highlighting if you want.
-
-#### Without Syntax Highlighting
+A code block is a specifically styled paragraph format, use for representing (you've guessed it) a block of code.
 
 ```
 function test() {
@@ -157,16 +155,6 @@ function test() {
 }
 ```
 
-
-#### With Syntax Highlighting
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-For an overview of all available for highlighting, [go here](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/)
 
 [Back to Formatting Overview][Chap2over]
 
@@ -321,3 +309,16 @@ Proceed as follows to... :
 	2. Step 2.2
 
 If you put images inline in a procedure, do not use figure titles.
+
+
+
+[Chap2over]:#Chap2over
+[2.1]: #paragraph-styles
+[2.2]: #text-formatting
+[2.3]: #using-lists
+[2.4]: #inserting-images
+[2.5]: #using-code-blocks
+[2.6]: #using-block-quotes
+[2.7]: #tables
+[2.8]: #using-links
+[2.9]: #formatting-procedures
