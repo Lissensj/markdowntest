@@ -1,6 +1,6 @@
 # ABOUT THIS DOCUMENT
 
-This document contains examples of all possible markdown styling supported by the Allseen system.
+This document contains examples of all possible markdown styling supported by GitHub.
 
 # TABLE OF CONTENTS
 
@@ -208,15 +208,11 @@ Note, the actual link path is at the bottom of this document (see the source of 
 
 Image links are preceded by "!" . Alt text is put between straight brackets "[]". 
 
-For images hosted locally:
-
-* Use reference style links, 
-* Full paths relative to the host, and 
-* Put url paths at the end of the document. Example:
+For images hosted locally, use like external links, use reference style links, full paths relative to the host, and putting url paths at the end of the document. Example:
 
 ![Dummy Image][dummy-image]
 
-For images from the internet, put the URL of the image between round brackets "()".
+For images from the internet, put the URL of the image is put between round brackets "()".
 
 ![Darfield](http://project-nerd.com/wp-content/uploads/2012/12/Garfield-Dalek.jpg)
 

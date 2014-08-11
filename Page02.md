@@ -1,78 +1,3 @@
-![Allseen Logo][AllSeenlogo]
-<a name="Top"> </a>
-
-
-
-# Type Document Title Here
-
-Month Day, Year
-
-
-
-
-## Table of Contents
-
-* [Introduction](#Introduction)
-* [Chapter 1 Overview](#chapter-1-overview)
-* [Chapter 2 Some Syntax Examples](#chapter-2-some-syntax-examples)
-* [Chapter 3 Your Chapter Title Here](#chapter-3-your-chapter-title-here)
-* [Appendix A Appendix Title](#appendix-a-appendix-title)
-
-
-
-Note that this table of contents is on a chapter level, but you can add additional levels by adding additional anchors. This table uses reference links (see below).
-
-
-##Introduction
-
-### Purpose
-
-Type a purpose for this document
-
-### Scope
-
-Indicate the targeted audience for this document, e.g. :
-
-This document is intended for software engineers and assumes familiarity with the AllJoyn SDK. This template actually assumes that you have a very basic knowledge of the markdown text format.
-
-In order to understand all the examples in this template, you need to look at the non-rendered text in a text editor. If you want to preview what your document will (more or less) look like, there are a number of editors available on the Internet that provide this.
-
-As a general piece of advice; since this document will become a single page on the Allseen documentation system in Drupal, keep it concise. Split your document into several sub-documents if necessary. You can use a top document to link the separate documents together.
-
-### References
-
-If there are pages or documents that complement this one, list them. Otherwise, remove this section. 
-
-## Acronyms and Terms
-
-Below is a list of used acronyms and terms:
-
-* **ACR:** Define an acronym here
-* **Term:** Define a term here.
-
-[Back to Top][Top]
-
-
-
-##Chapter 1 Overview
-
-
-### What is it all about?
-
-If you need it, and you have too much information to put into the introduction, you can use this section to provide an overview of what is in the document. 
-
-### Not Too Much Detail
-
-Do not use too much detail here. That comes in subsequent chapters.
-
-### Try Structured Writing
-
-Try writing your document in a structured way. Use labels and block of text and organise these blocks in consistent "maps" or sections. Entire libraries of books were written on the subject, so there's no way of going into detail here. But this document template should already give you an idea.
-
-
-
-
-[Back to Top][Top]
 ##Chapter 2 Some Syntax Examples
 
 ### In this Chapter
@@ -86,33 +11,33 @@ This chapter serves both as example syntax and as tutorial.
 <a name="Chap2over"> </a>
 [Chap2over]:#Chap2over
 
-* [Paragraph Styles](#paragraph-styles)
+* [2.1 Paragraph Styles](#paragraph-styles)
 
-* [Text Formatting](#text-formatting)
+* [2.2 Text Formatting](#text-formatting)
 
-* [Using Lists](#using-lists)
+* [2.3 Using Lists](#using-lists)
 
-* [Inserting Images](#inserting-images)
+* [2.4 Inserting Images](#inserting-images)
 
-* [Using Code Blocks](#using-code-blocks)
+* [2.5 Using Code Blocks](#using-code-blocks)
 
-* [Using Block Quotes](#using-block-quotes)
+* [2.6 Using Block Quotes](#using-block-quotes)
 
-* [Tables](#tables)
+* [2.7 Tables](#tables)
 
-* [Using Links](using-links)
+* [2.8 Using Links](using-links)
 
-* [Formatting Procedures](#formatting-procedures)
+* [2.9 Formatting Procedures](#formatting-procedures)
 
 
-### Paragraph Styles
+### 2.1 Paragraph Styles
 
 You can use heading style and regular paragraphs. The use of headers is quite obvious here. You can use h1 to h6. h1 corresponds with a single hash, h2 is two hashes and so on. For a paragraph, just type regular text.
 
 [Back to Formatting Overview][Chap2over]
 
 
-### Text Formatting
+### 2.2 Text Formatting
 
 You can use italic, bold and strikethrough. Here are some examples:
 
@@ -142,7 +67,7 @@ You can escape other formatting characters in the same way.
 
 
 
-### Using Lists
+### 2.3 Using Lists
 
 Contrary to other markdown dialects, stars are used iso hyphens.
 
@@ -192,7 +117,7 @@ List items may consist of multiple paragraphs. Each subsequent paragraph in a li
 [Back to Formatting Overview][Chap2over]
 
 
-### Inserting Images
+### 2.4 Inserting Images
 
 For images hosted locally:
 
@@ -220,7 +145,7 @@ Always put the figure title below the figure and use **bold**.
 
 
 
-### Using Code Blocks
+### 2.5 Using Code Blocks
 
 A code block is a specifically styled paragraph format, use for representing (you've guessed it) a block of code. You can use syntax highlighting if you want.
 
@@ -246,7 +171,7 @@ For an overview of all available for highlighting, [go here](http://www.rubycolo
 [Back to Formatting Overview][Chap2over]
 
 
-### Using Block Quotes
+### 2.6 Using Block Quotes
 
 Block quotes are another type of paragraph with a specific layout. Below is an example:
 Block Quotes
@@ -269,7 +194,7 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 [Back to Formatting Overview][Chap2over]
 
 
-### Tables
+### 2.7 Tables
 
 There are a couple of ways you can format tables.You can create them by assembling a list of words and dividing them with hyphens "-" for the first row), and then separating each column with a pipe "|". Always precede a table with a table title in **bold**. 
 
@@ -324,7 +249,7 @@ A colon on the left-most side indicates a left-aligned column; a colon on the ri
 [Back to Formatting Overview][Chap2over]
 
 
-### Using Links
+### 2.8 Using Links
 
 #### Complete Link Syntax
 
@@ -353,9 +278,11 @@ To create a link to the reference, use this syntax:
 
 You can link to an external document by using its name. If document you are referring to is not in the same folder, you need to provide the full path. 
 
-* This is a link to [an external document](conversiontest2.md)
+* This is a link to [an external document](Overview.md)
 
 * This one links to [an external document in a subfolder](/testfolder/conversiontest2.md)
+
+Note: page links in the table of content on the [Overview](Overview) page are made this way
 
 
 #### Reference Links
@@ -382,7 +309,7 @@ If you have multiple references to the same link, this method allows for easy up
 [Back to Formatting Overview][Chap2over]
 
 
-### Formatting Procedures
+### 2.9 Formatting Procedures
 
 Use numbered lists for procedures. If a step has substeps, use a nested list:
 
@@ -394,30 +321,3 @@ Proceed as follows to... :
 	2. Step 2.2
 
 If you put images inline in a procedure, do not use figure titles.
-
-
-[Back to Top][Top]
-
-
-
-##Chapter 3 Your Chapter Title Here
-
-###Start Writing
-
-We know you can do it!
-
-[Back to Top][Top]
-
-<a name="AppA"> </a>
-##Appendix A Appendix Title
-
-
-Use an appendix if you need one.
-
-For longer appendices, we strongly recommend creating them as separate documents and linking the main document and the Appendix together using an overview document. 
-
-[Back to Top][Top]
-
-[AllSeenlogo]: /AllSeenlogo2014.jpg
-[dummy-image]: /dummy.jpg
-[Top]:#Top
