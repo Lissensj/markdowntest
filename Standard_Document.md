@@ -12,11 +12,11 @@ Month Day, Year
 
 ## Table of Contents
 
-* [Introduction](#Introduction)
-* [Chapter 1 Overview](#chapter-1-overview)
-* [Chapter 2 Some Syntax Examples](#chapter-2-some-syntax-examples)
-* [Chapter 3 Your Chapter Title Here](#chapter-3-your-chapter-title-here)
-* [Appendix A Appendix Title](#appendix-a-appendix-title)
+* [Introduction][Intro]
+* [Chapter 1 Overview][Chap1]
+* [Chapter 2 Some Syntax Examples][Chap2]
+* [Chapter 3 title][Chap3]
+* [Appendix A Markdown Cheat Sheet][AppA]
 
 
 
@@ -84,7 +84,7 @@ This chapter serves both as example syntax and as tutorial.
 ### Overview
 
 <a name="Chap2over"> </a>
-[Chap2over]:#Chap2over
+
 
 * [Paragraph Styles](#paragraph-styles)
 
@@ -408,7 +408,6 @@ We know you can do it!
 
 [Back to Top][Top]
 
-<a name="AppA"> </a>
 ##Appendix A Appendix Title
 
 
@@ -421,3 +420,9 @@ For longer appendices, we strongly recommend creating them as separate documents
 [AllSeenlogo]: /AllSeenlogo2014.jpg
 [dummy-image]: /dummy.jpg
 [Top]:#Top
+[Intro]: #introduction
+[Chap2over]:#Chap2over
+[Chapter1]: #chapter-1-overview
+[Chap2]: #chapter-2-some-syntax-examples
+[Chap3]: #chapter-3-your-chapter-title-here
+[AppA]: #appendix-a-markdown-cheat-sheet
